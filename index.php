@@ -9,6 +9,13 @@
 		font-family: sans-serif;
 		padding: 5px;
 	}
+	input{
+		border-radius: 5px;
+	}
+	button{
+		background-color: blue;
+		color: white;
+	}
 </style>
 <body>
 	<header>
@@ -24,5 +31,10 @@
 	}
 	mysqli_close($conn);
 	?>
+	<br /><br />
+	<form>
+		<input type="text" name="nombre"><br />
+		<button>Enviar</button>
+	</form>
 </body>
 </html>
