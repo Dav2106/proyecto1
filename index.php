@@ -3,6 +3,13 @@
 <head>
 	<title>Proyecto 1</title>
 </head>
+<style>
+	table{
+		border: solid;
+		font-family: sans-serif;
+		padding: 5px;
+	}
+</style>
 <body>
 	<header>
 		<h1>Probando</h1>
